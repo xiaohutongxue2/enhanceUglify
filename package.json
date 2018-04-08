@@ -1,0 +1,25 @@
+{
+  "name": "enhanceuglify",
+  "version": "1.0.0",
+  "description": "对uglify-js进行封装，主要增加了批处理能力",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "euglify": "./index.js"
+  },
+  "keywords": [
+    "command",
+    "enhance",
+    "uglify"
+  ],
+  "author": "xiaohutongxue",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "fs-extra": "^5.0.0",
+    "shelljs": "^0.8.1",
+    "uglify-js": "^2.8.29"
+  }
+}
