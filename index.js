@@ -92,7 +92,7 @@ function uglifyFile(fileDir) {
   try {
     const result = UglifyJS.minify(fileDir);
 
-    console.log(result.code);
+    console.log(fileDir + ' uglify success!');
 
     return result.code;
   } catch (e) {
